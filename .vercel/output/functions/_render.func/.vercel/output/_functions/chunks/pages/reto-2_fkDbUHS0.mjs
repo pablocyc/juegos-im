@@ -1,5 +1,5 @@
 import { e as createAstro, f as createComponent, r as renderTemplate, l as renderComponent, m as maybeRenderHead } from '../astro_Uaq_ntAP.mjs';
-import { $ as $$Layout } from './index_C_6vz0Vy.mjs';
+import { $ as $$Layout } from './index_Bm1YZY-X.mjs';
 /* empty css                           */
 
 const $$Astro = createAstro();
