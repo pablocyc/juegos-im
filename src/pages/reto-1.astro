@@ -1,9 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
 ---
 
-<Layout title="About the project">
+<Layout title="Juegos y Canciones">
   <h2>¿Qué es el JUEGO para los demás?</h2>
   <ul>
     <li>Para el común de los mortales el juego es un recreo.</li>
@@ -18,11 +17,16 @@ import Card from "../components/Card.astro";
       <li>Jugar es el auténtico qué hacer de la vida.</li>
       <li>El resto constituye una interrupción</li>
       <li>El juego es una de las actividades serias de la vida.</li>
-      <li>Es una ocación donde cada detalle es importante.</li>
+      <li>Es una ocasión donde cada detalle es importante.</li>
     </ul>
     <code>Reto a realizar:</code>
-    <p class="task">Por eso como buenos dirigentes haremos la canción más movida que conozcamos y la subiremos a alguna plataforma como TikTok.</p>
+    <p class="task">Por eso como buenos dirigentes haremos la <strong>Canción Más Movida</strong> que conozcamos y la subiremos a alguna plataforma como TikTok. <strong>Y lo compartiremos con el grupo.</strong>
+    </p>
   </section>
+
+  <p class="next-task">
+    El siguiente reto está alrededor del <code>BIBLIOTECA</code>
+  </p>
 </Layout>
 
 <style>
@@ -38,8 +42,9 @@ import Card from "../components/Card.astro";
     );
     padding: 1.5rem;
     border-radius: 8px;
+    text-wrap: pretty;
   }
-  .instructions code {
+  code {
     font-size: 0.8em;
     font-weight: bold;
     background: rgba(var(--accent-light), 12%);
@@ -55,5 +60,15 @@ import Card from "../components/Card.astro";
     font-weight: 300;
     font-style: italic;
     margin: 0;
+  }
+
+  .next-task {
+    color: #f9423a;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-wrap: pretty;
+    text-align: center;
   }
 </style>

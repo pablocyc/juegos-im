@@ -1,0 +1,72 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Juegos y Canciones">
+  <h2>¿Qué es el JUEGO para los demás?</h2>
+  <ul>
+    <li>Para el común de los mortales el juego es un recreo.</li>
+    <li>Una parada del qué hacer de la vida.</li>
+    <li>Un intervalo, donde no tiene que poner sus facultades a plena tensión.</li>
+    <li>El juego es una placentera interrupción de la rutina.</li>
+  </ul>
+
+  <section class="instructions">
+    <h1>¿Qué es el <strong>JUEGO</strong> para los <strong>NIÑOS</strong>?</h1>
+    <ul>
+      <li>El juego es empleado sobre todo por los niños como un instrumento facilitador de experiencias, de conocimientos y aprendizajes de varios tipos: motrices, cognoscitivos, emocionales, éticos, morales, culturales y sociales.
+      </li>
+    </ul>
+    <code>Reto a realizar:</code>
+    <p class="task">Enseñar a todos los miembros del equipo un <strong>Juego Competitivo</strong>, subirlo a alguna plataforma como TikTok. <strong>Y compartirlo con el grupo.</strong>
+    </p>
+  </section>
+
+  <p class="next-task">
+    El siguiente reto está alrededor del <code>PATIO DE LA ASB</code>
+  </p>
+</Layout>
+
+<style>
+  h1 {
+    font-size: 1.1rem;
+  }
+  .instructions {
+    margin-bottom: 2rem;
+    border: 1px solid rgba(var(--accent-light), 25%);
+    background: linear-gradient(
+      rgba(var(--accent-dark), 66%),
+      rgba(var(--accent-dark), 33%)
+    );
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-wrap: pretty;
+  }
+  code {
+    font-size: 0.8em;
+    font-weight: bold;
+    background: rgba(var(--accent-light), 12%);
+    color: rgb(var(--accent-light));
+    border-radius: 4px;
+    padding: 0.3em 0.4em;
+  }
+  .instructions strong {
+    color: rgb(var(--accent-light));
+  }
+
+  .task {
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+  }
+
+  .next-task {
+    color: #f9423a;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-wrap: pretty;
+    text-align: center;
+  }
+</style>

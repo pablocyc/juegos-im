@@ -16,7 +16,19 @@
 			"dest": "_render"
 		},
 		{
-			"src": "^\\/lobatos\\/?$",
+			"src": "^\\/reto-1\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/reto-2\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/reto-3\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/reto-4\\/?$",
 			"dest": "_render"
 		},
 		{
