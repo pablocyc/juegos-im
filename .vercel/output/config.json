@@ -16,7 +16,7 @@
 			"dest": "_render"
 		},
 		{
-			"src": "^\\/about\\/?$",
+			"src": "^\\/lobatos\\/?$",
 			"dest": "_render"
 		},
 		{
